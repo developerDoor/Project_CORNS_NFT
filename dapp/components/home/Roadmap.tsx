@@ -61,7 +61,7 @@ const Roadmap: FC = () => {
       pb={24}
     >
       <Text mb={8} fontWeight="bold" fontSize="4xl">
-        STORY
+        ROADMAP
       </Text>
       {roadmapContents.map((v, i) => {
         return (

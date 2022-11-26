@@ -48,9 +48,16 @@ const Header: FC = () => {
       <Box>
         {/* PLN 로고 이름 or 이미지 변경 */}
         <Link href="/">
-          <Text fontWeight="bold" fontSize="xl" cursor="pointer">
-            ProjectLion NFT
-          </Text>
+          <img
+            src={"/images/ourLogo.png"}
+            style={{
+              position: "absolute",
+              width: "150px",
+              height: "80px",
+              top: "-10px",
+              left: "0",
+            }}
+          />
         </Link>
       </Box>
       <Box>

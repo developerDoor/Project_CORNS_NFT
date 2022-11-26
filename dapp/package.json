@@ -29,6 +29,7 @@
     "web3": "^1.7.4"
   },
   "devDependencies": {
-    "@types/react-scroll": "^1.8.5"
+    "@types/react-scroll": "^1.8.5",
+    "@types/styled-components": "^5.1.26"
   }
 }
