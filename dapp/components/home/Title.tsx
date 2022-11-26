@@ -31,7 +31,7 @@ const Title: FC = () => {
             marginLeft: "125px",
           }}
         >
-          <p>LET'S</p>
+          <p>{"LET'S"}</p>
           <p>EXPLORE</p>
           <p>CORNS WORLD!!</p>
         </div>
