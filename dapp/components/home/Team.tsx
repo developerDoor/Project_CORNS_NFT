@@ -11,13 +11,13 @@ const teamCardContents: TeamCardProps[] = [
   },
   {
     name: "김성현",
-    position: "디자니어",
-    image: "images/CORNS2.png",
+    position: "프로그래머",
+    image: "images/CORNS4.png",
   },
   {
     name: "김학건",
-    position: "프로그래머",
-    image: "images/CORNS4.png",
+    position: "디자니어",
+    image: "images/CORNS2.png",
   },
   {
     name: "문장혁",

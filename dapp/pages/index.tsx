@@ -6,7 +6,11 @@ import { NextPage } from "next";
 
 const Home: NextPage = () => {
   return (
-    <main>
+    <main
+      style={{
+        backgroundColor: "#F4ECD7",
+      }}
+    >
       <Title />
       <Story />
       <Roadmap />

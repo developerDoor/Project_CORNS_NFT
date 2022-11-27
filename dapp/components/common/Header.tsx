@@ -20,9 +20,9 @@ import Link from "next/link";
 
 // PLN 프로젝트에 맞게 세계관, 로드맵, 팀 변경
 const scrollLink = [
-  { id: "story", name: "세계관" },
-  { id: "roadmap", name: "로드맵" },
-  { id: "team", name: "팀" },
+  { id: "story", name: "WORLD" },
+  { id: "roadmap", name: "LOADMAP" },
+  { id: "team", name: "TEAM" },
 ];
 
 const Header: FC = () => {
@@ -43,7 +43,7 @@ const Header: FC = () => {
       py={2}
       shadow="md"
       zIndex={1}
-      bgColor="gray.50"
+      bgColor="#E9E081"
     >
       <Box>
         {/* PLN 로고 이름 or 이미지 변경 */}
@@ -86,7 +86,7 @@ const Header: FC = () => {
             <PopoverContent>
               <PopoverArrow />
               <PopoverCloseButton />
-              <PopoverHeader fontWeight="bold">ProjectLion NFT</PopoverHeader>
+              <PopoverHeader fontWeight="bold">ProjectCORNS NFT</PopoverHeader>
               <PopoverBody cursor="pointer" fontSize="xl">
                 <Link href="/my-nft">내 NFT 보기</Link>
               </PopoverBody>

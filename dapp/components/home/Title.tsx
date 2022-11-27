@@ -18,10 +18,10 @@ const Title: FC = () => {
           justifyContent: "space-between",
           alignItems: "center",
           height: "600px",
-          width: "75%",
-          border: "1px solid yellow",
+          width: "85%",
+          border: "3px solid #956D65",
           borderRadius: "30px",
-          background: "#FFFF83",
+          //background: "#FFFF63",
         }}
       >
         <div
@@ -35,6 +35,7 @@ const Title: FC = () => {
           <p>EXPLORE</p>
           <p>CORNS WORLD!!</p>
         </div>
+
         <div>
           <img
             src={"/images/main.gif"}

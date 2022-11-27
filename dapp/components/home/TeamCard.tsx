@@ -16,7 +16,7 @@ const TeamCard: FC<TeamCardProps> = ({ name, position, image }) => {
       flexDir="column"
       justifyContent="center"
       alignItems="center"
-      bgColor="gray.50"
+      bgColor="#AACE55"
       px={8}
       pt={8}
       pb={16}
