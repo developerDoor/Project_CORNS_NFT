@@ -6,22 +6,22 @@ import TeamCard, { TeamCardProps } from "./TeamCard";
 const teamCardContents: TeamCardProps[] = [
   {
     name: "김민혜",
-    position: "팀장, 기획",
+    position: "TEAM LEADER, PM",
     image: "images/CORNS3.png",
   },
   {
     name: "김성현",
-    position: "프로그래머",
+    position: "PROGRAMMER",
     image: "images/CORNS4.png",
   },
   {
     name: "김학건",
-    position: "디자니어",
+    position: "DESIGNER",
     image: "images/CORNS2.png",
   },
   {
     name: "문장혁",
-    position: "프로그래머",
+    position: "PROGRAMMER",
     image: "images/CORNS1.png",
   },
 ];
@@ -39,7 +39,7 @@ const Team: FC = () => {
       <Text mb={8} fontWeight="bold" fontSize="4xl">
         TEAM
       </Text>
-      <Flex>
+      <Flex style={{display:"flex", flexWrap:"wrap"}}>
         {teamCardContents.map((v, i) => {
           return (
             <TeamCard
