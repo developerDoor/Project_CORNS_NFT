@@ -1,6 +1,4 @@
-import { Box, Button, Flex, Image } from "@chakra-ui/react";
 import { FC } from "react";
-import { Link as ScrollLink } from "react-scroll";
 
 const Title: FC = () => {
   return (
@@ -11,24 +9,37 @@ const Title: FC = () => {
         alignItems: "center",
       }}
     >
-      <div style={{ height: "100px" }}>.</div>
+        <div style={{
+            position:"absolute",
+            top:"130px",
+            left:"140px",
+            zIndex:"1",
+            width : "1300px",
+            height : "600px",
+            background : "yellow"
+        }}></div>
       <div
         style={{
-          display: "flex",
+            top: "100px",
+            position:"absolute",
+
+            display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
           height: "600px",
           width: "85%",
           border: "3px solid #956D65",
           borderRadius: "30px",
-          //background: "#FFFF63",
+            zIndex:"10"
         }}
       >
         <div
           style={{
+              position:"relative",
             fontSize: "60px",
             fontWeight: "bold",
             marginLeft: "125px",
+              zIndex:"8"
           }}
         >
           <p>{"LET'S"}</p>
@@ -36,42 +47,31 @@ const Title: FC = () => {
           <p>CORNS WORLD!!</p>
         </div>
 
+
         <div>
           <img
             src={"/images/main.gif"}
             style={{
+                position:"relative",
               marginRight: "50px",
               width: "500px",
               borderRadius: "50px",
+              zIndex:"10"
             }}
           />
+            <div style={{
+                position:"absolute",
+                top : "60px",
+                right : "40px",
+                width: "500px",
+                height : "500px",
+                border:"3px solid #956D65",
+                borderRadius: "50px",
+                zIndex:"8"
+            }}></div>
         </div>
       </div>
     </div>
-    // <Flex
-    //   minH="100vh"
-    //   justifyContent="space-between"
-    //   alignItems="center"
-    //   flexDir="column"
-    //   id="title"
-    //   px="4"
-    // >
-    //   <Box></Box>
-    //   <Box>
-    //     {/* PLN 타이틀 이미지 교체 */}
-    //     <Image src="images/title.gif" alt="Title" />
-    //   </Box>
-    //   <ScrollLink to="story" spy={true} smooth={true}>
-    //     <Button
-    //       variant="ghost"
-    //       fontSize="4xl"
-    //       mb={8}
-    //       className="animate__animated animate__heartBeat animate__infinite"
-    //     >
-    //       ↓
-    //     </Button>
-    //   </ScrollLink>
-    // </Flex>
   );
 };
 
