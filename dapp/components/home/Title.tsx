@@ -13,10 +13,10 @@ const Title: FC = () => {
       <div // 노란 박스
         style={{
           position: "relative",
-          top: "230px",
+          top: "200px",
           left: "15px",
           width: "79.5%",
-          height: "500px",
+          height: "520px",
           borderBottomLeftRadius: "20px",
           borderBottomRightRadius: "20px",
           background: "linear-gradient(to top, #FAD057, #E9E081)",
@@ -33,6 +33,7 @@ const Title: FC = () => {
           width: "80%",
           border: "3px solid #956D65",
           borderRadius: "20px",
+          zIndex: "0",
         }}
       >
         <div // 타이틀 컨텐츠
@@ -59,7 +60,7 @@ const Title: FC = () => {
               top: "30px",
               width: "400px",
               borderRadius: "50px",
-              //zIndex: "1",
+              zIndex: "0",
             }}
           />
           <div // 이미지 테두리
@@ -71,7 +72,7 @@ const Title: FC = () => {
               height: "400px",
               border: "3px solid #956D65",
               borderRadius: "50px",
-              zIndex: "0",
+              zIndex: "-1",
             }}
           ></div>
         </div>
