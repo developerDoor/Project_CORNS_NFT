@@ -1,6 +1,5 @@
-@font-face {
-    font-family: 'GillSans';
-    src: url('./public/static/fonts/GillSans.ttc') format('ttc');
-    font-weight: normal;
-    font-style: normal;
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300;400;500;600;700&display=swap');
+
+button {
+    font-family: 'Lemonada', cursive;
 }

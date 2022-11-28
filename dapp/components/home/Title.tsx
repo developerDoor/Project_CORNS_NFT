@@ -5,6 +5,7 @@ const Title: FC = () => {
     <div
       style={{
         display: "flex",
+          position:"relative",
         flexDirection: "column",
         alignItems: "center",
       }}
@@ -14,7 +15,7 @@ const Title: FC = () => {
             top:"130px",
             left:"140px",
             zIndex:"1",
-            width : "1300px",
+            width : "80%",
             height : "600px",
             background : "yellow"
         }}></div>
@@ -39,7 +40,8 @@ const Title: FC = () => {
             fontSize: "60px",
             fontWeight: "bold",
             marginLeft: "125px",
-              zIndex:"8"
+              zIndex:"8",
+              fontFamily: "Lemonada-SemiBold"
           }}
         >
           <p>{"LET'S"}</p>

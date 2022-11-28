@@ -4,6 +4,8 @@ import Layout from "@components/common/Layout";
 import "animate.css";
 import "../public/static/fonts/style.css"
 
+
+
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider>
