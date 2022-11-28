@@ -5,16 +5,18 @@ const Title: FC = () => {
     <div
       style={{
         display: "flex",
+          position:"absolute",
+          width:"100%",
         flexDirection: "column",
         alignItems: "center",
       }}
     >
         <div style={{
-            position:"absolute",
+            position:"relative",
             top:"130px",
-            left:"140px",
+            left:"5%",
             zIndex:"1",
-            width : "1300px",
+            width : "85%",
             height : "600px",
             background : "yellow"
         }}></div>
