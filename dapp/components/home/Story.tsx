@@ -51,6 +51,7 @@ const Story: FC = () => {
       justifyContent="center"
       alignItems="center"
     >
+        <div style={{height : "800px"}}></div>
       <Text mb={8} fontWeight="bold" fontSize="4xl">
         STORY
       </Text>
