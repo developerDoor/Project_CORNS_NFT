@@ -52,10 +52,12 @@ const Story: FC = () => {
       alignItems="center"
     >
         <div style={{height : "800px"}}></div>
-      <Text mb={8} fontWeight="bold" fontSize="4xl">
-        STORY
-      </Text>
-      <Flex mb={4}>
+
+        <div style={{ display:"flex", justifyContent:"center", alignItems:"center", width:"140px",height:"46px",border: "1px solid black", textAlign:"center", borderRadius:"15px"}}>
+            <div style={{ fontSize : "30px", fontWeight:"bold"}}>STORY</div>
+        </div>
+
+      <Flex mb={4} >
         {StoryContents.map((_, i) => {
           return (
             <Box
@@ -71,11 +73,11 @@ const Story: FC = () => {
           );
         })}
       </Flex>
-      <Flex alignItems="center">
+      <Flex alignItems="center" >
         <Text onClick={onClickPrev} mr={12} fontSize="6xl" cursor="pointer">
           ←
         </Text>
-        <Flex width={width} minH={height} overflow="hidden">
+        <Flex width={width} minH={height} overflow="hidden" >
           {StoryContents.map((v, i) => {
             return (
               <Box
@@ -85,7 +87,7 @@ const Story: FC = () => {
                 ml={i === 0 ? `-${page}00%` : ""}
                 style={{ transition: "all 0.3s ease-out" }}
               >
-                <Image src={v.image} alt="Story" />
+                <Image src={v.image} alt="Story" border="3px solid black" borderRadius="30px"/>
                 {i === page && (
                   <Text fontSize="xl" w={width}>
                     {v.contents}
