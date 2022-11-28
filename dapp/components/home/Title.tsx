@@ -5,43 +5,43 @@ const Title: FC = () => {
     <div
       style={{
         display: "flex",
-          position:"relative",
+        position: "relative",
         flexDirection: "column",
         alignItems: "center",
       }}
     >
-        <div style={{
-            position:"absolute",
-            top:"130px",
-            left:"140px",
-            zIndex:"1",
-            width : "80%",
-            height : "600px",
-            background : "yellow"
-        }}></div>
-      <div
+      <div // 노란 박스
         style={{
-            top: "100px",
-            position:"absolute",
-
-            display: "flex",
+          position: "relative",
+          top: "230px",
+          left: "15px",
+          width: "79.5%",
+          height: "500px",
+          borderBottomLeftRadius: "20px",
+          borderBottomRightRadius: "20px",
+          background: "linear-gradient(to top, #FAD057, #E9E081)",
+        }}
+      ></div>
+      <div //갈색 테두리
+        style={{
+          top: "150px",
+          position: "absolute",
+          display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
-          height: "600px",
-          width: "85%",
+          height: "560px",
+          width: "80%",
           border: "3px solid #956D65",
-          borderRadius: "30px",
-            zIndex:"10"
+          borderRadius: "20px",
         }}
       >
-        <div
+        <div // 타이틀 컨텐츠
           style={{
-              position:"relative",
+            position: "relative",
             fontSize: "60px",
             fontWeight: "bold",
             marginLeft: "125px",
-              zIndex:"8",
-              fontFamily: "Lemonada-SemiBold"
+            fontFamily: "Lemonada-SemiBold",
           }}
         >
           <p>{"LET'S"}</p>
@@ -49,28 +49,31 @@ const Title: FC = () => {
           <p>CORNS WORLD!!</p>
         </div>
 
-
-        <div>
+        <div //콘즈 이미지
+        >
           <img
             src={"/images/main.gif"}
             style={{
-                position:"relative",
-              marginRight: "50px",
-              width: "500px",
+              position: "relative",
+              marginRight: "70px",
+              top: "30px",
+              width: "400px",
               borderRadius: "50px",
-              zIndex:"10"
+              //zIndex: "1",
             }}
           />
-            <div style={{
-                position:"absolute",
-                top : "60px",
-                right : "40px",
-                width: "500px",
-                height : "500px",
-                border:"3px solid #956D65",
-                borderRadius: "50px",
-                zIndex:"8"
-            }}></div>
+          <div // 이미지 테두리
+            style={{
+              position: "absolute",
+              top: "120px",
+              right: "60px",
+              width: "400px",
+              height: "400px",
+              border: "3px solid #956D65",
+              borderRadius: "50px",
+              zIndex: "0",
+            }}
+          ></div>
         </div>
       </div>
     </div>

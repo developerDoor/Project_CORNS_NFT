@@ -18,7 +18,6 @@ import { AiOutlineWallet } from "react-icons/ai";
 import { useWallet } from "hooks";
 import Link from "next/link";
 
-
 // PLN 프로젝트에 맞게 세계관, 로드맵, 팀 변경
 const scrollLink = [
   { id: "story", name: "WORLD" },
@@ -46,7 +45,7 @@ const Header: FC = () => {
       zIndex={1}
       bgColor="#E9E081"
     >
-      <Box boxSize={70}>
+      <Box boxSize={50}>
         {/* PLN 로고 이름 or 이미지 변경 */}
         <Link href="/">
           <img
@@ -55,7 +54,7 @@ const Header: FC = () => {
               position: "absolute",
               width: "200px",
               height: "100px",
-              top: "-5px",
+              top: "-15px",
               left: "-10px",
             }}
           />
@@ -65,7 +64,14 @@ const Header: FC = () => {
         {scrollLink.map((v, i) => {
           return (
             <ScrollLink key={i} to={v.id} spy={true} smooth={true}>
-              <Button id fontSize={30}  mx={12} variant="ghost" fontWeight="bold">
+              <Button
+                //zIndex={99999}
+                fontSize={20}
+                mx={12}
+                variant="ghost"
+                fontWeight="bold"
+                color="#956D65"
+              >
                 {v.name}
               </Button>
             </ScrollLink>
