@@ -5,22 +5,22 @@ import TeamCard, { TeamCardProps } from "./TeamCard";
 // PLN 팀원 정보 교체
 const teamCardContents: TeamCardProps[] = [
   {
-    name: "김 민 혜",
+    name: "김민혜",
     position: "TEAM LEADER / PM",
     image: "images/CORNS3.png",
   },
   {
-    name: "김 성 현",
+    name: "김성현",
     position: "PROGRAMMER",
     image: "images/CORNS4.png",
   },
   {
-    name: "김 학 건",
+    name: "김학건",
     position: "DESIGNER",
     image: "images/CORNS2.png",
   },
   {
-    name: "문 장 혁",
+    name: "문장혁",
     position: "PROGRAMMER",
     image: "images/CORNS1.png",
   },
