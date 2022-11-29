@@ -37,12 +37,12 @@ const Title: FC = () => {
           zIndex: "0",
         }}
       >
-        <div className={"title"} style={{
+        <div className={"title_content"} style={{
             position: "relative",
             marginLeft: "125px",
           }}
         >
-          <p id={"small"} style={{
+          <p id={"title_content_small"} style={{
               fontSize: "50px",
 
           }}>{"LET'S EXPLORE"}</p>

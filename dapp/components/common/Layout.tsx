@@ -18,8 +18,10 @@ const Layout: FC<LayoutProps> = ({ children }) => {
       </Head>
       <Header />
       {children}
-      <footer>
-        <Box textAlign="center" my={2}>
+      <footer style={{
+          backgroundColor : "#F5ECD8"
+      }}>
+        <Box textAlign="center">
           <Text fontSize="sm">
             Team ProjectCORNS NFT | 76, Haneul-gil, Gangseo-gu, Seoul, Republic
             of Korea | E-Mail projectCorns@gmail.com

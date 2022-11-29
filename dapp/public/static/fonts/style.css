@@ -1,15 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300;400;500;600;700&display=swap');
 
+@font-face{
+    font-family:'AppleSDGothicNeo', sans-serif;
+    src:url('//cdn.jsdelivr.net/npm/font-applesdgothicneo@1.0/all.min.css');
+}
+
+
+
+
 button {
     font-family: 'Lemonada', cursive;
 }
 
-.title {
+.title_content {
     font-family: 'Lemonada', cursive;
     color: #7E5C55;
 }
 
-#small {
+#title_content_small {
     font-family: 'Lemonada', cursive;
     color: #956D65;
 }
+
+.contents_title{
+    font-family: 'Lemonada', cursive;
+    color: #956D65;
+}
+
+/*.team{*/
+/*    font-family: 'AppleSDGothicNeo', sans-serif;*/
+/*}*/

@@ -6,7 +6,7 @@ import TeamCard, { TeamCardProps } from "./TeamCard";
 const teamCardContents: TeamCardProps[] = [
   {
     name: "김민혜",
-    position: "TEAM LEADER, PM",
+    position: "TEAM LEADER / PM",
     image: "images/CORNS3.png",
   },
   {
@@ -36,9 +36,10 @@ const Team: FC = () => {
       pb={24}
       flexDir="column"
     >
-      <Text mb={8} fontWeight="bold" fontSize="4xl">
-        TEAM
-      </Text>
+      <div style={{ display:"flex", justifyContent:"center", alignItems:"center", width:"140px",height:"46px",border: "2px solid #956D65", textAlign:"center", borderRadius:"15px", marginBottom:"15px"}}>
+        <div className={"contents_title"} style={{ fontSize : "30px", fontWeight:"bold"}}>TEAM</div>
+      </div>
+      <div style={{height:"20px"}}></div>
       <Flex style={{display:"flex", flexWrap:"wrap"}}>
         {teamCardContents.map((v, i) => {
           return (

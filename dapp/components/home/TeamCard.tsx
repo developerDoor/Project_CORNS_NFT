@@ -18,7 +18,7 @@ const TeamCard: FC<TeamCardProps> = ({ name, position, image }) => {
             flexDirection:"column",
             justifyContent:"center",
             alignItems:"center",
-            backgroundColor:"#AACE55",
+            background:"linear-gradient(to top, #E9E081, #FAD057)",
             margin:"15px",
             padding:"2rem",
             borderRadius:"30px"
@@ -52,10 +52,10 @@ const TeamCard: FC<TeamCardProps> = ({ name, position, image }) => {
             alignItems : "center",
 
             background:"#F4ECD7"}}>
-      <div style={{fontSize:"25px", fontWeight:"bold"}}>
+      <div className={"team"} style={{color:"#825D56", fontSize:"30px", fontWeight:"bold"}}>
         {name}
       </div>
-        <div style={{fontSize:"25px", fontWeight:"bold"}}>
+        <div className={"team"} style={{color:"#A6847A", fontSize:"25.5px", fontWeight:"bold"}}>
             {position}
         </div>
         </div>

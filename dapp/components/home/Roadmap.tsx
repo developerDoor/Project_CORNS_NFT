@@ -60,21 +60,28 @@ const Roadmap: FC = () => {
       alignItems="center"
       pb={24}
     >
-      <Text mb={8} fontWeight="bold" fontSize="4xl">
-        ROADMAP
-      </Text>
-      {roadmapContents.map((v, i) => {
-        return (
-          <RoadmapCard
-            key={i}
-            justifyContent={v.justifyContent}
-            animation={v.animation}
-            name={v.name}
-            description={v.description}
-            bgGradientColor={v.bgGradientColor}
-          />
-        );
-      })}
+      <div style={{height:"100px"}}></div>
+      <div style={{ display:"flex", justifyContent:"center", alignItems:"center", width:"200px",height:"46px",border: "2px solid #956D65", textAlign:"center", borderRadius:"15px", marginBottom:"15px"}}>
+        <div className={"contents_title"} style={{ fontSize : "30px", fontWeight:"bold"}}>ROADMAP</div>
+      </div>
+      <div>
+        <img src={"/images/roadmap.png"}
+        style={{
+
+        }}/>
+      </div>
+      {/*{roadmapContents.map((v, i) => {*/}
+      {/*  return (*/}
+      {/*    <RoadmapCard*/}
+      {/*      key={i}*/}
+      {/*      justifyContent={v.justifyContent}*/}
+      {/*      animation={v.animation}*/}
+      {/*      name={v.name}*/}
+      {/*      description={v.description}*/}
+      {/*      bgGradientColor={v.bgGradientColor}*/}
+      {/*    />*/}
+      {/*  );*/}
+      {/*})}*/}
     </Flex>
   );
 };
