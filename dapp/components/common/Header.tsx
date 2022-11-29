@@ -21,7 +21,7 @@ import Link from "next/link";
 // PLN 프로젝트에 맞게 세계관, 로드맵, 팀 변경
 const scrollLink = [
   { id: "story", name: "WORLD" },
-  { id: "roadmap", name: "LOADMAP" },
+  { id: "roadmap", name: "ROADMAP" },
   { id: "team", name: "TEAM" },
 ];
 
@@ -65,7 +65,6 @@ const Header: FC = () => {
           return (
             <ScrollLink key={i} to={v.id} spy={true} smooth={true}>
               <Button
-                //zIndex={99999}
                 fontSize={20}
                 mx={12}
                 variant="ghost"

@@ -51,8 +51,6 @@ const Story: FC = () => {
       justifyContent="center"
       alignItems="center"
     >
-        <div style={{height : "800px"}}></div>
-
         <div style={{ display:"flex", justifyContent:"center", alignItems:"center", width:"140px",height:"46px",border: "1px solid black", textAlign:"center", borderRadius:"15px"}}>
             <div style={{ fontSize : "30px", fontWeight:"bold"}}>STORY</div>
         </div>
@@ -101,6 +99,7 @@ const Story: FC = () => {
           →
         </Text>
       </Flex>
+      <div style={{height :"130"}} />
     </Flex>
   );
 };

@@ -8,6 +8,7 @@ const Title: FC = () => {
         position: "relative",
         flexDirection: "column",
         alignItems: "center",
+          height : "800px"
       }}
     >
       <div // 노란 박스
