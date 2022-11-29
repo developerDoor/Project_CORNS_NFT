@@ -1,12 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300;400;500;600;700&display=swap');
 
 @font-face{
-    font-family:'AppleSDGothicNeo', sans-serif;
-    src:url('//cdn.jsdelivr.net/npm/font-applesdgothicneo@1.0/all.min.css');
+    font-family:'AppleSDGothicNeoEB';
+    src:url('./Apple SD sanGodic Neo/AppleSDGothicNeoEB.ttf') format("truetype");
 }
 
+@font-face{
+    font-family:'AppleSDGothicNeoH';
+    src:url('./Apple SD sanGodic Neo/AppleSDGothicNeoH.ttf') format("truetype");
+}
 
+@font-face{
+    font-family:'AppleSDGothicNeoL';
+    src:url('./Apple SD sanGodic Neo/AppleSDGothicNeoL.ttf') format("truetype");
+}
 
+@font-face{
+    font-family:'AppleSDGothicNeoM';
+    src:url('./Apple SD sanGodic Neo/AppleSDGothicNeoM.ttf') format("truetype");
+}
 
 button {
     font-family: 'Lemonada', cursive;
@@ -28,5 +40,5 @@ button {
 }
 
 .team{
-    font-family: 'AppleSDGothicNeo', sans-serif;
+    font-family: 'AppleSDGothicNeoM';
 }

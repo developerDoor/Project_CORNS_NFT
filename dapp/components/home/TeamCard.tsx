@@ -54,7 +54,7 @@ const TeamCard: FC<TeamCardProps> = ({ name, position, image }) => {
             background:"#F4ECD7"}}>
             <div style={{
                 position: "absolute",
-                width: "101%",
+                width: "100%",
                 height: "455px",
                 border: "3px solid #956D65",
                 borderRadius: "30px",
@@ -62,10 +62,10 @@ const TeamCard: FC<TeamCardProps> = ({ name, position, image }) => {
                 right: "4px"
 
             }}></div>
-      <div className={"team"} style={{color:"#825D56", fontSize:"30px", fontWeight:"bold"}}>
+      <div className={"team"} style={{color:"#825D56", fontSize:"25px", fontWeight:"bold"}}>
         {name}
       </div>
-        <div className={"team"} style={{color:"#A6847A", fontSize:"25.5px"}}>
+        <div className={"team"} style={{color:"#A6847A", fontSize:"20.5px"}}>
             {position}
         </div>
         </div>
