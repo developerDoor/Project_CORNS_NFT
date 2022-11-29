@@ -27,15 +27,15 @@ const TeamCard: FC<TeamCardProps> = ({ name, position, image }) => {
       ref={dom}
       className={isObserved ? "animate__animated animate__pulse" : ""}
     >
-        <div style={{
-            position:"absolute",
-            top:"-8px",
-            left:"-8px",
-            width:"100%",
-            height:"100%",
-            border:"2px solid  #956D65",
-            borderRadius:"30px"
-        }} />
+        {/*<div style={{*/}
+        {/*    position:"absolute",*/}
+        {/*    top:"-8px",*/}
+        {/*    left:"-8px",*/}
+        {/*    width:"100%",*/}
+        {/*    height:"100%",*/}
+        {/*    border:"2px solid  #956D65",*/}
+        {/*    borderRadius:"30px"*/}
+        {/*}} />*/}
 
       <Image
         src={image}

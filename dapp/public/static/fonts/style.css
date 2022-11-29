@@ -3,3 +3,13 @@
 button {
     font-family: 'Lemonada', cursive;
 }
+
+.title {
+    font-family: 'Lemonada', cursive;
+    color: #7E5C55;
+}
+
+#small {
+    font-family: 'Lemonada', cursive;
+    color: #956D65;
+}

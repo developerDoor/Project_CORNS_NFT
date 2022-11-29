@@ -15,7 +15,7 @@ const Title: FC = () => {
           position: "relative",
           top: "200px",
           left: "15px",
-          width: "79.5%",
+          width: "70%",
           height: "520px",
           borderBottomLeftRadius: "20px",
           borderBottomRightRadius: "20px",
@@ -30,24 +30,26 @@ const Title: FC = () => {
           justifyContent: "space-between",
           alignItems: "center",
           height: "560px",
-          width: "80%",
+          width: "70.5%",
           border: "3px solid #956D65",
           borderRadius: "20px",
           zIndex: "0",
         }}
       >
-        <div // 타이틀 컨텐츠
-          style={{
+        <div className={"title"} style={{
             position: "relative",
-            fontSize: "60px",
-            fontWeight: "bold",
             marginLeft: "125px",
-            fontFamily: "Lemonada-SemiBold",
           }}
         >
-          <p>{"LET'S"}</p>
-          <p>EXPLORE</p>
-          <p>CORNS WORLD!!</p>
+          <p id={"small"} style={{
+              fontSize: "50px",
+
+          }}>{"LET'S EXPLORE"}</p>
+          <p style={{
+              fontSize: "80px",
+              fontWeight: "bold",
+              lineHeight : "5rem" // 행간 간격
+          }}>CORNS<br/>WORLD!!</p>
         </div>
 
         <div //콘즈 이미지
