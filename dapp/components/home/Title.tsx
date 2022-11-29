@@ -20,7 +20,7 @@ const Title: FC = () => {
           height: "520px",
           borderBottomLeftRadius: "20px",
           borderBottomRightRadius: "20px",
-          background: "linear-gradient(to top, #FAD057, #E9E081)",
+          background: "linear-gradient(to right, #FBD055, #E8E081)",
         }}
       ></div>
       <div //갈색 테두리

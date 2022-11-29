@@ -52,10 +52,20 @@ const TeamCard: FC<TeamCardProps> = ({ name, position, image }) => {
             alignItems : "center",
 
             background:"#F4ECD7"}}>
+            <div style={{
+                position: "absolute",
+                width: "101%",
+                height: "455px",
+                border: "3px solid #956D65",
+                borderRadius: "30px",
+                bottom: "7px",
+                right: "4px"
+
+            }}></div>
       <div className={"team"} style={{color:"#825D56", fontSize:"30px", fontWeight:"bold"}}>
         {name}
       </div>
-        <div className={"team"} style={{color:"#A6847A", fontSize:"25.5px", fontWeight:"bold"}}>
+        <div className={"team"} style={{color:"#A6847A", fontSize:"25.5px"}}>
             {position}
         </div>
         </div>
