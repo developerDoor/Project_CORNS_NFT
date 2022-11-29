@@ -61,7 +61,7 @@ const Roadmap: FC = () => {
       pb={24}
     >
       <div style={{height:"100px"}}></div>
-      <div style={{ display:"flex", justifyContent:"center", alignItems:"center", width:"200px",height:"46px",border: "2px solid #956D65", textAlign:"center", borderRadius:"15px", marginBottom:"15px"}}>
+      <div style={{ display:"flex", justifyContent:"center", alignItems:"center", width:"200px",height:"46px",border: "2px solid #BA9990", textAlign:"center", borderRadius:"15px", marginBottom:"15px"}}>
         <div className={"contents_title"} style={{ fontSize : "30px", fontWeight:"bold"}}>ROADMAP</div>
       </div>
       <div>

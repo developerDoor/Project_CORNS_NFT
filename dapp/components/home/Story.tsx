@@ -51,7 +51,7 @@ const Story: FC = () => {
       justifyContent="center"
       alignItems="center"
     >
-        <div style={{ display:"flex", justifyContent:"center", alignItems:"center", width:"140px",height:"46px",border: "2px solid #956D65", textAlign:"center", borderRadius:"15px", marginBottom:"15px"}}>
+        <div style={{ display:"flex", justifyContent:"center", alignItems:"center", width:"140px",height:"46px",border: "2px solid #BA9990", textAlign:"center", borderRadius:"15px", marginBottom:"15px"}}>
             <div className={"contents_title"} style={{ fontSize : "30px", fontWeight:"bold"}}>STORY</div>
         </div>
 
@@ -64,7 +64,7 @@ const Story: FC = () => {
               w={4}
               h={4}
               rounded="full"
-              bgColor={i === page ? "#956D65" : "gray.100"}
+              bgColor={i === page ? "#BA9990" : "gray.100"}
               onClick={onClickPage(i)}
               cursor="pointer"
             ></Box>
@@ -72,7 +72,7 @@ const Story: FC = () => {
         })}
       </Flex>
       <Flex alignItems="center" >
-        <Text color={"#956D65"} onClick={onClickPrev} mr={12} fontSize="6xl" cursor="pointer">
+        <Text color={"#BA9990"} onClick={onClickPrev} mr={12} fontSize="6xl" cursor="pointer">
           ←
         </Text>
         <Flex width={width} minH={height} overflow="hidden" >
@@ -85,7 +85,7 @@ const Story: FC = () => {
                 ml={i === 0 ? `-${page}00%` : ""}
                 style={{ transition: "all 0.3s ease-out" }}
               >
-                <Image src={v.image} alt="Story" border="3px solid #956D65" borderRadius="30px"/>
+                <Image src={v.image} alt="Story" border="2px solid #BA9990" borderRadius="30px"/>
                 {i === page && (
                   <Text fontSize="xl" w={width}>
                     {v.contents}
@@ -95,7 +95,7 @@ const Story: FC = () => {
             );
           })}
         </Flex>
-        <Text color={"#956D65"} onClick={onClickNext} ml={12} fontSize="6xl" cursor="pointer">
+        <Text color={"#BA9990"} onClick={onClickNext} ml={12} fontSize="6xl" cursor="pointer">
           →
         </Text>
       </Flex>

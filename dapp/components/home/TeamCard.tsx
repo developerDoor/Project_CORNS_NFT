@@ -56,16 +56,16 @@ const TeamCard: FC<TeamCardProps> = ({ name, position, image }) => {
                 position: "absolute",
                 width: "101%",
                 height: "455px",
-                border: "3px solid #956D65",
+                border: "2px solid #BA9990",
                 borderRadius: "30px",
                 bottom: "7px",
                 right: "5px"
 
             }}></div>
-      <div className={"team"} style={{color:"#825D56", fontSize:"25px", fontWeight:"bold"}}>
+      <div className={"team"} style={{marginTop: "-20px", marginBottom: "10px", color:"#825D56", fontSize:"22px", fontWeight:"bold"}}>
         {name}
       </div>
-        <div className={"team"} style={{color:"#A6847A", fontSize:"20.5px"}}>
+        <div className={"team"} style={{marginTop: "10px", color:"#A6847A", fontSize:"17px"}}>
             {position}
         </div>
         </div>

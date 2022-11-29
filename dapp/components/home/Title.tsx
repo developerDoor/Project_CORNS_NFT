@@ -18,8 +18,8 @@ const Title: FC = () => {
           left: "15px",
           width: "70%",
           height: "520px",
-          borderBottomLeftRadius: "20px",
-          borderBottomRightRadius: "20px",
+          borderBottomLeftRadius: "30px",
+          borderBottomRightRadius: "30px",
           background: "linear-gradient(to right, #FBD055, #E8E081)",
         }}
       ></div>
@@ -32,8 +32,8 @@ const Title: FC = () => {
           alignItems: "center",
           height: "560px",
           width: "70.5%",
-          border: "3px solid #956D65",
-          borderRadius: "20px",
+          border: "2px solid #BA9990",
+          borderRadius: "30px",
           zIndex: "0",
         }}
       >
@@ -73,7 +73,7 @@ const Title: FC = () => {
               right: "60px",
               width: "400px",
               height: "400px",
-              border: "3px solid #956D65",
+              border: "2px solid #BA9990",
               borderRadius: "50px",
               zIndex: "-1",
             }}
