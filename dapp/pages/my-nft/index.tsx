@@ -31,21 +31,29 @@ const MyNft: NextPage = () => {
   }, []);
 
   return (
-    <Flex
+    <Flex style={{
+      backgroundColor: "#F4ECD7",
+    }}
       minH="100vh"
-      justifyContent="center"
       alignItems="center"
       pt={24}
       flexDir="column"
     >
-      <Text mb={8} fontWeight="bold" fontSize="4xl">
-        내 NFT
-      </Text>
+      <div style={{ display:"flex", justifyContent:"center", alignItems:"center", width:"160px",height:"46px",border: "2px solid #BA9990", textAlign:"center", borderRadius:"15px", marginBottom:"15px"}}>
+        <div className={"contents_title"} style={{ fontSize : "30px", fontWeight:"bold"}}>My NFT</div>
+      </div>
       <Grid templateColumns="repeat(4, 1fr)" gap={8}>
         {nftTokenIds?.map((v, i) => {
           return <NftCard key={i} tokenId={v} />;
         })}
       </Grid>
+      <div style={{
+        height: "30px"
+      }}></div>
+      <div style={{ display:"flex", justifyContent:"center", alignItems:"center", width:"160px",height:"46px",border: "2px solid #BA9990", textAlign:"center", borderRadius:"15px", marginBottom:"15px"}}>
+        <div className={"contents_title"} style={{ fontSize : "30px", fontWeight:"bold"}}>Buy NFT</div>
+      </div>
+
     </Flex>
   );
 };

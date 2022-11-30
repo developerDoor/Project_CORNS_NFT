@@ -9,7 +9,9 @@ interface LayoutProps {
 
 const Layout: FC<LayoutProps> = ({ children }) => {
   return (
-    <Box>
+    <Box  style={{
+        backgroundColor: "#F4ECD7",
+    }}>
       <Head>
         {/* PLN title, meta의 content 변경  */}
         <title>ProjectLion NFT</title>
@@ -18,9 +20,7 @@ const Layout: FC<LayoutProps> = ({ children }) => {
       </Head>
       <Header />
       {children}
-      <footer style={{
-          backgroundColor : "#F5ECD8"
-      }}>
+      <footer>
         <Box textAlign="center">
           <Text fontSize="sm">
             Team ProjectCORNS NFT | 76, Haneul-gil, Gangseo-gu, Seoul, Republic

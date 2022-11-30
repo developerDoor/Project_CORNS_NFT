@@ -94,7 +94,7 @@ const Header: FC = () => {
               <PopoverCloseButton />
               <PopoverHeader fontWeight="bold">ProjectCORNS NFT</PopoverHeader>
               <PopoverBody cursor="pointer" fontSize="xl">
-                <Link href="/my-nft">내 NFT 보기</Link>
+                <Link id={"metaMenu"} href="/my-nft">내 NFT 보기</Link>
               </PopoverBody>
             </PopoverContent>
           </Popover>
