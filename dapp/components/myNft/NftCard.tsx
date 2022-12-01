@@ -37,19 +37,27 @@ const NftCard: FC<NftCardProps> = ({ tokenId }) => {
   }, []);
 
   return (
-    <Box w={300} background="linear-gradient(to right, #FBD055, #E8E081)" shadow="md" rounded="2xl" p={4}>
+    <Box
+      w={300}
+      background="linear-gradient(to right, #FBD055, #E8E081)"
+      shadow="md"
+      rounded="2xl"
+      p={4}
+    >
       <Image
         src={metadata?.image}
         alt={metadata?.name}
         fallbackSrc="images/loading.png"
         rounded="2xl"
       />
-      <Text mt={2} fontSize="2xl" fontWeight="bold">
+      <Text className="MyNFTCard" mt={2} fontSize="2xl" fontWeight="bold">
         {metadata?.name}
       </Text>
-      <Text>{metadata?.description}</Text>
+      <Text className="MyNFTCard">{metadata?.description}</Text>
       <Link href={`my-nft/detail/${tokenId}`}>
-        <Button my={4}>Detail</Button>
+        <Button boxShadow={"5px 5px 5px #D2B849"} my={4} background="#FFF390">
+          Detail
+        </Button>
       </Link>
     </Box>
   );

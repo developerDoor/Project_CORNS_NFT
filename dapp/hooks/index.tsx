@@ -27,6 +27,7 @@ export const useObserve = () => {
   return { isObserved, dom };
 };
 
+// 지갑 연결하는 부분
 export const useWallet = () => {
   const [account, setAccount] = useState<string>("");
 
@@ -49,6 +50,7 @@ export const useWallet = () => {
   return { account, getAccount };
 };
 
+// 디앱이랑 스마트컨트랙을 연결하는 부분
 export const useWeb3 = () => {
   const [web3, setWeb3] = useState<any>();
   const [mintContract, setMintContract] = useState<any>();

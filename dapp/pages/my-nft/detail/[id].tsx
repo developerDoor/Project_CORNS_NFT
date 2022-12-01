@@ -36,14 +36,15 @@ const Detail: NextPage = () => {
         <Image
           src={metadata?.image}
           alt={metadata?.name}
+          height="450px"
           fallbackSrc="images/loading.png"
           rounded="2xl"
         />
         <Box w={400} ml={8}>
-          <Text mt={2} fontSize="4xl" fontWeight="bold">
+          <Text className="detailText" mt={2} fontSize="4xl" fontWeight="bold">
             {metadata?.name}
           </Text>
-          <Text mt={2} mb={8} fontSize="2xl">
+          <Text className="detailText" mt={2} mb={8} fontSize="2xl">
             {metadata?.description}
           </Text>
           <Grid templateColumns="repeat(3, 1fr)" gap={4}>
@@ -56,8 +57,12 @@ const Detail: NextPage = () => {
                   rounded="2xl"
                   textAlign="center"
                 >
-                  <Text fontWeight="bold">{v.trait_type}</Text>
-                  <Text mt={1}>{v.value}</Text>
+                  <Text className="detailText" fontWeight="bold">
+                    {v.trait_type}
+                  </Text>
+                  <Text className="detailText" mt={1}>
+                    {v.value}
+                  </Text>
                 </Box>
               );
             })}
