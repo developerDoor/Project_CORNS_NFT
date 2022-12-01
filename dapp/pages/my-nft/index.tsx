@@ -43,9 +43,19 @@ const MyNft: NextPage = () => {
         <div className={"contents_title"} style={{ fontSize : "30px", fontWeight:"bold"}}>My NFT</div>
       </div>
       <Grid templateColumns="repeat(4, 1fr)" gap={8}>
-        {nftTokenIds?.map((v, i) => {
+        {nftTokenIds ? nftTokenIds.map((v, i) => {
           return <NftCard key={i} tokenId={v} />;
-        })}
+        }) : <div className="loading-container" style={{
+          position: "absolute"
+        }}>
+          <div className="loading"></div>
+          <div id="loading-text">loading</div>
+        </div>}
+            {/*[1,2,3,4,5,6,7,8].map((i)=> {*/}
+            {/*return <NftCard key={i} tokenId={`${i}`}/>})}*/}
+        {/*{nftTokenIds?.map((v, i) => {*/}
+        {/*  return <NftCard key={i} tokenId={v} />;*/}
+        {/*})}*/}
       </Grid>
       <div style={{
         height: "30px"
