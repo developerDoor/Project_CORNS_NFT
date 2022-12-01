@@ -55,7 +55,15 @@ const NftCard: FC<NftCardProps> = ({ tokenId }) => {
       </Text>
       <Text className="MyNFTCard">{metadata?.description}</Text>
       <Link href={`my-nft/detail/${tokenId}`}>
-        <Button boxShadow={"5px 5px 5px #D2B849"} my={4} background="#FFF390">
+        <Button
+          style={{
+            color: "#956d65",
+          }}
+          fontSize={"12px"}
+          boxShadow={"5px 5px 5px #D2B849"}
+          my={4}
+          background="#FFF390"
+        >
           Detail
         </Button>
       </Link>

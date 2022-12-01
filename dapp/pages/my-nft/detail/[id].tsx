@@ -41,10 +41,22 @@ const Detail: NextPage = () => {
           rounded="2xl"
         />
         <Box w={400} ml={8}>
-          <Text className="detailText" mt={2} fontSize="4xl" fontWeight="bold">
+          <Text
+            className="detailText"
+            color={"#956d65"}
+            mt={2}
+            fontSize="4xl"
+            fontWeight="bold"
+          >
             {metadata?.name}
           </Text>
-          <Text className="detailText" mt={2} mb={8} fontSize="2xl">
+          <Text
+            className="detailText"
+            color={"#956d65"}
+            mt={2}
+            mb={8}
+            fontSize="2xl"
+          >
             {metadata?.description}
           </Text>
           <Grid templateColumns="repeat(3, 1fr)" gap={4}>
@@ -57,10 +69,14 @@ const Detail: NextPage = () => {
                   rounded="2xl"
                   textAlign="center"
                 >
-                  <Text className="detailText" fontWeight="bold">
+                  <Text
+                    className="detailText"
+                    color={"#956d65"}
+                    fontWeight="bold"
+                  >
                     {v.trait_type}
                   </Text>
-                  <Text className="detailText" mt={1}>
+                  <Text className="detailText" color={"#956d65"} mt={1}>
                     {v.value}
                   </Text>
                 </Box>
@@ -70,7 +86,13 @@ const Detail: NextPage = () => {
         </Box>
       </Flex>
       <Link href="/my-nft">
-        <Button position="absolute" top={24} left={24}>
+        <Button
+          backgroundColor={"#FFF390"}
+          color={"#956d65"}
+          position="absolute"
+          top={24}
+          left={24}
+        >
           ← Back
         </Button>
       </Link>
