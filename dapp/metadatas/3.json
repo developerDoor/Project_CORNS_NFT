@@ -1,0 +1,27 @@
+{
+  "name": "CORNS #3",
+  "description": "NFT Project CORNS #3",
+  "image": "https://gateway.pinata.cloud/ipfs/QmazYJJ4cipeuayNK11aeKFzeux6VYFPckUnxBRA8EE4t2/3.png",
+  "attributes": [
+    {
+      "trait_type": "Hair",
+      "value": "part1 orange"
+    },
+    {
+      "trait_type": "Accessoires",
+      "value": "glasses"
+    },
+    {
+      "trait_type": "Tops",
+      "value": "short-sleeve blue"
+    },
+    {
+      "trait_type": "Items",
+      "value": "nintendo"
+    },
+    {
+      "trait_type": "Background",
+      "value": "pink"
+    }
+  ]
+}

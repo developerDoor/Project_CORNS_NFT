@@ -1,0 +1,27 @@
+{
+  "name": "CORNS #2",
+  "description": "NFT Project CORNS #2",
+  "image": "https://gateway.pinata.cloud/ipfs/QmazYJJ4cipeuayNK11aeKFzeux6VYFPckUnxBRA8EE4t2/2.png",
+  "attributes": [
+    {
+      "trait_type": "Hair",
+      "value": "buzz cut yellow"
+    },
+    {
+      "trait_type": "Accessoires",
+      "value": ""
+    },
+    {
+      "trait_type": "Tops",
+      "value": "long-sleeve check blue"
+    },
+    {
+      "trait_type": "Items",
+      "value": "mouse"
+    },
+    {
+      "trait_type": "Background",
+      "value": "sky"
+    }
+  ]
+}

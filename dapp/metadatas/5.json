@@ -1,0 +1,27 @@
+{
+  "name": "CORNS #5",
+  "description": "NFT Project CORNS #5",
+  "image": "https://gateway.pinata.cloud/ipfs/QmazYJJ4cipeuayNK11aeKFzeux6VYFPckUnxBRA8EE4t2/5.png",
+  "attributes": [
+    {
+      "trait_type": "Hair",
+      "value": "buzz cut yellow"
+    },
+    {
+      "trait_type": "Accessoires",
+      "value": ""
+    },
+    {
+      "trait_type": "Tops",
+      "value": "long-sleeve stripe pink"
+    },
+    {
+      "trait_type": "Items",
+      "value": "corn"
+    },
+    {
+      "trait_type": "Background",
+      "value": "yellow"
+    }
+  ]
+}
