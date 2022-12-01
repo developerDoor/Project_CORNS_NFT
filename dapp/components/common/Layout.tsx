@@ -3,6 +3,7 @@ import Head from "next/head";
 import { FC, ReactNode } from "react";
 import Header from "./Header";
 
+
 interface LayoutProps {
   children: ReactNode;
 }
