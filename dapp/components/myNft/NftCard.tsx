@@ -37,7 +37,7 @@ const NftCard: FC<NftCardProps> = ({ tokenId }) => {
   }, []);
 
   return (
-    <Box w={300} bgColor="gray.50" shadow="md" rounded="2xl" p={4}>
+    <Box w={300} background="linear-gradient(to right, #FBD055, #E8E081)" shadow="md" rounded="2xl" p={4}>
       <Image
         src={metadata?.image}
         alt={metadata?.name}
