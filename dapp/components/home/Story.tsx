@@ -41,7 +41,7 @@ const StoryContents = [
     },
     {
         image: "images/story6.png",
-        title: "",
+        title: "#6 출발!!",
         contents: ""
     },
 
