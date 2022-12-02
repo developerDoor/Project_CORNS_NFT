@@ -118,16 +118,20 @@ const Story: FC = () => {
                                 width={width}
                                 flex="none"
                                 ml={i === 0 ? `-${page}00%` : ""}
-                                style={{transition: "all 0.3s ease-out"}}
+                                style={{transition: "all 0.3s ease-out",display:"flex",
+                                    flexDirection:"column",
+                                    alignItems:"center",}}
                             >
                                 <Image src={v.image} alt="Story"/>
                                 {i === page && (
                                     <div className={"detailText"}  style={{
+
+                                        width:"90%",
                                       fontSize: "18px",
                                       color: "#956d65"
                                     }} >
-                                      <p style={{fontWeight:"bold"}}>{v.title}</p>
-                                      <p>{v.contents}</p>
+                                      <p style={{fontWeight:"bold", textAlign:"center"}}>{v.title}</p>
+                                      <p style={{textAlign:"left"}}>{v.contents}</p>
                                     </div>
                                 )}
                             </Box>
