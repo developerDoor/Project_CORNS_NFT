@@ -61,12 +61,12 @@ const MyNft: NextPage = () => {
         </div>
       </div>
       <Grid templateColumns="repeat(4, 1fr)" gap={8}>
-        {nftTokenIds?.map((v, i) => {
-          return <NftCard key={i} tokenId={v} />;
-        })}
+        {/*{nftTokenIds?.map((v, i) => {*/}
+        {/*  return <NftCard key={i} tokenId={v} />;*/}
+        {/*})}*/}
 
         {/* // 이거 나 */}
-        {/* {nftTokenIds ? (
+        {nftTokenIds ? (
           nftTokenIds.map((v, i) => {
             return <NftCard key={i} tokenId={v} />;
           })
@@ -80,7 +80,7 @@ const MyNft: NextPage = () => {
             <div className="loading"></div>
             <div id="loading-text">loading</div>
           </div>
-        )} */}
+        )}
 
         {/* // 이거 성규형 */}
         {/*[1,2,3,4,5,6,7,8].map((i)=> {*/}
