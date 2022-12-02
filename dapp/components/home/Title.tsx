@@ -56,7 +56,7 @@ const Title: FC = () => {
         <div //콘즈 이미지
         >
           <img
-            src={"/images/main.gif"}
+            src={"/images/dapp.gif"}
             style={{
               position: "relative",
               marginRight: "70px",
